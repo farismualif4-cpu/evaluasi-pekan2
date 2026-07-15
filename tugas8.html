@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Pendaftaran Ekstrakurikuler</title>
+
+  <style>
+    
+  </style>
+</head>
+
+<body style="background-color: aquamarine;">
+
+  <h1>Formulir Pendaftaran Ekstrakurikuler</h1>
+
+  <form action="" method="POST">
+
+    <h2>Data Diri Santri</h2>
+
+    <p>
+      <label for="nama">Nama santri:</label><br>
+      <input
+        type="text"
+        id="nama"
+        name="nama"
+        placeholder="Contoh: Ahmad Fauzi"
+        required>
+    </p>
+
+    <p>
+      <label for="nama">nama wali :</label><br>
+      <input
+        type="text"
+        id="name"
+        name="email"
+        placeholder="contoh@email.com"
+        required>
+    </p>
+
+    <p>
+      <label for="telepon">Nomor Telepon / me:</label><br>
+      <input
+        type="tel"
+        id="telepon"
+        name="telepon"
+        placeholder="08xxxxxxxxxx"
+        required>
+    </p>
+
+    <p>
+      <label for="lahir">Tanggal Lahir:</label><br>
+      <input
+        type="date"
+        id="lahir"
+        name="lahir"
+        required>
+    </p>
+
+    <p>
+      <label>Jenis Kelamin:</label><br>
+         <input
+          type="radio"
+          id="laki"
+          name="jk"
+          value="Laki-laki"
+          required>
+          
+          
+
+      <label for="laki">Laki-laki</label><br>
+         <input
+          type="radio"
+          id="perempuan"
+          name="jk"
+          value="Perempuan">
+
+      <label for="perempuan">Perempuan</label>
+    </p>
+
+    <hr>
+
+    <h2>Pilihan Ekstrakurikuler</h2>
+
+    <p>
+      <label>Ekstrakurikuler yang diminati:</label><br>
+
+      <input
+        type="checkbox"
+        id="programming"
+        name="ekskul"
+        value="Programming">
+
+      <label for="programming">Programming</label><br>
+
+      <input
+        type="checkbox"
+        id="desain"
+        name="ekskul"
+        value="Desain Grafis">
+
+      <label for="desain">Desain Grafis</label><br>
+
+      <input
+        type="checkbox"
+        id="robotik"
+        name="ekskul"
+        value="Robotik">
+
+      <label for="robotik">Robotik</label>
+    </p>
+
+    <p>
+      <label for="kelas">Kelas / Tingkat:</label><br>
+
+      <select id="kelas" name="kelas" required>
+        <option value="">-- Pilih Kelas --</option>
+        <option value="7">Kelas 7</option>
+        <option value="8">Kelas 8</option>
+        <option value="9">Kelas 9</option>
+        <option value="10">Kelas 10</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="motivasi">Alasan / Motivasi Mengikuti Ekstrakurikuler:</label><br>
+
+      <textarea
+        id="motivasi"
+        name="motivasi"
+        rows="5"
+        cols="40"
+        placeholder="Tuliskan alasan Anda..."
+        required></textarea>
+    </p>
+
+    <hr>
+
+    <h2>Data Tambahan</h2>
+
+    <p>
+      <label for="foto">Upload Foto Santri:</label><br>
+
+      <input
+        type="file"
+        id="foto"
+        name="foto">
+    </p>
+
+    <p>
+      <input
+        type="checkbox"
+        id="setuju"
+        name="setuju"
+        required>
+
+      <label for="setuju">
+        Saya menyetujui tata tertib ekstrakurikuler.
+      </label>
+    </p>
+
+    <p>
+      <input
+        type="submit"
+        value="Daftar Sekarang">
+    </p>
+
+  </form>
+
+</body>
+</html>
